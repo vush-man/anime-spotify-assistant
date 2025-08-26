@@ -26,7 +26,7 @@ anime-spotify-assistant/
 │── voice.py             # Speech recognition + TTS (Whisper + Voicevox)
 │── config.py            # Constants & environment setup
 │── requirements.txt     # Python dependencies
-│── .env.example         # Example env file for Spotify credentials
+│── .env                # env example file for Spotify credentials
 │── assets/
 │    ├── anime_idle.gif
 │    ├── anime_sing.gif
@@ -105,4 +105,4 @@ python main.py
 ---
 
 ## 📜 License
-MIT License © 2025 Vush
+MIT License © 2025 vush-man
