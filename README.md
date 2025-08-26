@@ -69,9 +69,10 @@ Place your anime assets inside `assets/`:
 
 ### 5. Voicevox Server
 Make sure you have a **Voicevox Engine** running locally:
+Download the corresponding engine form here: https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.24.1
+Unzip it in a directory, then open terminal in that directory and
 ```bash
-# Example (Docker)
-docker run -d -p 50021:50021 voicevox/voicevox_engine:cpu-ubuntu20.04-latest
+./run
 ```
 
 ---
