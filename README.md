@@ -68,9 +68,9 @@ Place your anime assets inside `assets/`:
 - `anime_girl.png` → fallback static image  
 
 ### 5. Voicevox Server
-Make sure you have a **Voicevox Engine** running locally:
-Download the corresponding engine form here: https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.24.1
-Unzip it in a directory, then open terminal in that directory and
+1. Make sure you have a **Voicevox Engine** running locally
+2. Download the corresponding engine form [here](https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.24.1)
+3. Unzip it in a directory, then open terminal in that directory and
 ```bash
 ./run
 ```
