@@ -21,7 +21,7 @@ def speak_async(text: str, volume: float = VOICE_VOLUME, on_complete=None):
             on_complete()
     threading.Thread(target=worker, daemon=True).start()
 
-whisper_model = whisper.load_model("medium")
+whisper_model = whisper.load_model("small")
 
 def recognize_from_mic():
     r = sr.Recognizer()
