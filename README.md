@@ -102,8 +102,3 @@ python main.py
 - Lip-sync animation tied to TTS playback  
 - Support playlists and podcast playback  
 - Integration with other music services  
-
----
-
-## 📜 License
-MIT License © 2025 vush-man
