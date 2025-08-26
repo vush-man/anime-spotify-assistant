@@ -92,7 +92,7 @@ python main.py
 - Spotify Premium account required  
 - You must have Spotify open on **some device** (desktop, phone, or web player)  
 - First run will open a browser for Spotify authorization (token cached in `.cache`)  
-- Whisper model will download on first run (`medium` by default)  
+- Whisper model will download on first run (`small` by default)  
 
 ---
 
