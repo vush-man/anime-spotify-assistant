@@ -39,7 +39,7 @@ anime-spotify-assistant/
 
 ### 1. Clone and Install Dependencies
 ```bash
-git clone https://github.com/yourname/anime-spotify-assistant.git
+git clone https://github.com/vush-man/anime-spotify-assistant.git
 cd anime-spotify-assistant
 pip install -r requirements.txt
 ```
