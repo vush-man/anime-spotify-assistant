@@ -1,0 +1,9 @@
+spotipy
+python-dotenv
+SpeechRecognition
+PyAudio
+pillow
+sounddevice
+numpy
+requests
+openai-whisper
