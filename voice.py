@@ -3,7 +3,7 @@ import threading, tempfile, requests, numpy as np, sounddevice as sd
 import whisper, speech_recognition as sr
 
 def speak(text: str, volume: float = VOICE_VOLUME):
-    params = {"text": text, "speaker": 2}
+    params = {"text": text, "speaker": 1}
     query = requests.post("http://localhost:50021/audio_query", params=params)
     synthesis = requests.post("http://localhost:50021/synthesis", params=params, data=query.content)
     audio = np.frombuffer(synthesis.content, dtype=np.int16).astype(np.float32)
