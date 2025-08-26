@@ -26,7 +26,7 @@ anime-spotify-assistant/
 │── voice.py             # Speech recognition + TTS (Whisper + Voicevox)
 │── config.py            # Constants & environment setup
 │── requirements.txt     # Python dependencies
-│── .env                # env example file for Spotify credentials
+│── env_example.txt      # env example file for Spotify credentials
 │── assets/
 │    ├── anime_idle.gif
 │    ├── anime_sing.gif
@@ -54,7 +54,7 @@ pip install -r requirements.txt
    and save.
 
 ### 3. Configure Environment
-Copy `.env.example` to `.env` and fill in your credentials:
+Copy `env_example.txt` to `.env` and fill in your credentials:
 ```
 SPOTIFY_CLIENT_ID=your_client_id_here
 SPOTIFY_CLIENT_SECRET=your_client_secret_here
