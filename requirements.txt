@@ -6,4 +6,3 @@ pillow
 sounddevice
 numpy
 requests
-openai-whisper
